@@ -2,7 +2,7 @@ name: Deploy ivitae to aws eb
 on:
   push:
     branches:
-      - "main"
+      - deploy-branch
 
 jobs:
   deploy:
